@@ -1,10 +1,11 @@
 const mongoose=require('mongoose')
 
-mongoose.connect('mongodb://127.0.0.1:27017/Incubation',{
+mongoose.connect('mongodb+srv://rish:rish123@incubation.ufgyi6z.mongodb.net/test',{
     useNewUrlParser:true,
    
 }).then(()=>{
     console.log('db connected');
 }).catch((e)=>{
+    console.log(e)
     console.log('db not connected');
 })
