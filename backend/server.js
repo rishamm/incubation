@@ -1,5 +1,7 @@
 const express=require('express')
+var cors = require('cors')
 const dotenv=require('dotenv').config()
+app.use(cors())
 const port=process.env.PORT || 5000
 // const {errorHandler}=require('./middleware/errorMiddleware')
 // const colors=require('colors')
