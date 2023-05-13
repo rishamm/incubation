@@ -28,7 +28,7 @@
     "build": "react-scripts build",
 
   "start": "node backend/server.js && react-scripts start",
-            "dev": "nodemon backend/server.js && react-scripts start"
+            "dev": "nodemon backend/server.js && react-scripts start",
 
     
 
